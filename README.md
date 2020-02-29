@@ -25,11 +25,21 @@
 * [Control Flow(if and else) 8 kyu]( https://www.codewars.com/kata/search/my-languages?beta=false&q=&r=-8&tags=Control+Flow)
 * [Control Flow 7 kyu](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&tags=Control+Flow&beta=false)
 
+## **00 Additional Notes**
+
+### Notes
+
+[Full Notes](00-additional-notes)
+
+1. [Functions](00-additional-notes/01-functions.js)
+2. [Const vs Lets](00-additional-notes/02-const-vs-let.js)
+3. [Quick Maths](00-additional-notes/03-quick-maths.js)
+4. [String Interpolation](00-additional-notes/04-string-interpolation.js)
 
 ## **01 Introduction and tidy code**
 
 
-**[Live Lecture]()**
+**[Live Lecture](https://youtu.be/HGJEDgOt2R8)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ab7da028b8e9b000477fd36/content/5ab7dbafa468c900045db6ed/text)
 [Solutions](https://learn.fullstackacademy.com/workshop/5ab7da028b8e9b000477fd36/content/5ab7dc11a468c900045db703/text)
@@ -48,7 +58,7 @@
 
 **[Prerecorded Lecture](https://learn.fullstackacademy.com/workshop/5ac57192f7ff470004a63148/content/5ac571d2bd9f9e0004adb0a4/text)**
 
-**[Live Lecture]()**
+**[Live Lecture](https://youtu.be/Wdr91XUuZxw)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac57192f7ff470004a63148/content/5ac572977ec3340004bddd57/text)
 
