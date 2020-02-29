@@ -29,17 +29,17 @@
 // when using continue in while loop
 // make sure you’re conditional is still eventually false
 
-// let count = 5;
-// // count  => 4
-// while (count >= 1) {
-//   if (count % 2 === 0) {
-//     console.log('hi');
-//     continue;
-//   }
+let count = 5;
+// count  => 4
+while (count >= 1) {
+  if (count % 2 === 0) {
+    console.log('hi', count);
+    continue;
+  }
 
-//   console.log('count is', count);
-//   count--;
-// }
+  console.log('count is', count);
+  count--;
+}
 
 /**
  * isOdd - determines whether a number is odd orr not

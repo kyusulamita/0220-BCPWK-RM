@@ -61,7 +61,7 @@ let letters = 'abcdefg';
 // console.log(letters[2])//'c'
 //
 // console.log(letters[6]) // 'g'
-// console.log(letters[7]);
+// console.log(letters[7]); // undefined
 
 // console.log(letters.length);
 
@@ -82,9 +82,9 @@ let letters = 'abcdefg';
 // FOR THIS WORKSHOP
 // important to note -> strings are inmutable
 // what does this mean???
-// console.log(letters);
-// letters[0] = 'Z';
-// console.log(letters);
+console.log(letters);
+letters[0] = 'Z';
+console.log(letters);
 // nothing happened!
 
 
@@ -92,19 +92,19 @@ let letters = 'abcdefg';
 
 // Try it out:
 // make a capitalized version of our letters string
-let newStr = ''; // undefined
+// let newStr = ''; // undefined
 
-for (let i = 0; i < letters.length; i++) {
-  let currentLetter = letters[i];
-  // making it an uppercase letter
-  let capitalLetter = currentLetter.toUpperCase();
-  letters[i] = capitalLetter;
-  // '' + 'A'
-  // 'A' + 'B'
-  // 'AB' + 'C'
-  newStr = newStr + capitalLetter;
-  console.log(`The letter at index ${i} is ${capitalLetter}`);
-}
+// for (let i = 0; i < letters.length; i++) {
+//   let currentLetter = letters[i];
+//   // making it an uppercase letter
+//   let capitalLetter = currentLetter.toUpperCase();
+//   letters[i] = capitalLetter;
+//   // '' + 'A'
+//   // 'A' + 'B'
+//   // 'AB' + 'C'
+//   newStr = newStr + capitalLetter;
+//   console.log(`The letter at index ${i} is ${capitalLetter}`);
+// }
 
-console.log(newStr);
-console.log(letters);
+// console.log(newStr);
+// console.log(letters);
