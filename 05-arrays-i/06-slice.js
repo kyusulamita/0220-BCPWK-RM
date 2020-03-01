@@ -24,27 +24,26 @@ let petNames = ['Mr. Bear', 'Mr. Sheep', 'Planty', 'Pusheen'];
 
 
 // no params, makes copy of the whole thing
-let petNamesCopy = petNames.slice();
-console.log(petNamesCopy);
+// let petNamesCopy = petNames.slice();
+// console.log(petNamesCopy);
 
 // one argument, we start at index two and go all the way to the end
-petNamesCopy = petNames.slice(2);
-console.log(petNamesCopy);
-// two arguments, we start at index 1 and start right before index 3
-petNamesCopy = petNames.slice(1, 3);
-console.log(petNamesCopy);
+// petNamesCopy = petNames.slice(2);
+// console.log(petNamesCopy);
+// // two arguments, we start at index 1 and start right before index 3
+// petNamesCopy = petNames.slice(1, 3);
+// console.log(petNamesCopy);
 
-// one argument, we start 3 BEFORE THE END
-petNamesCopy = petNames.slice(-3);
-console.log(petNamesCopy)
-// two arguments, we start 3 BEFORE THE END and stop 1 BEFORE THE END
-petNamesCopy = petNames.slice(-3, -1);
-console.log(petNamesCopy);
+// // one argument, we start 3 BEFORE THE END
+// petNamesCopy = petNames.slice(-3);
+// console.log(petNamesCopy)
+// // two arguments, we start 3 BEFORE THE END and stop 1 BEFORE THE END
+// petNamesCopy = petNames.slice(-3, -1);
+// console.log(petNamesCopy);
 
-petNamesCopy = petNames.slice(2, 1);// = []
-console.log(petNamesCopy);
+// petNamesCopy = petNames.slice(2, 1);// = []
+// console.log(petNamesCopy);
 
-// .splice()
 
 // https://goo.gl/6PGgVA REVERSE
 // let reversedArr = petNames.reverse();
@@ -55,4 +54,10 @@ console.log(petNamesCopy);
 // let petNamesCopy = petNames.slice(); // returns an array
 // let petNamesRev = petNamesCopy.reverse(); // .reverse is an array method
 // let petNamesReversed = petNames.slice().reverse();
+
+const reversedArr = petNames.reverse();
+
+reversedArr.push('Element');
+console.log(reversedArr);
+console.log(petNames);
 // console.log(petNamesReversed);
