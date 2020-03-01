@@ -1,7 +1,7 @@
 
 # 0220-BCP-WK-RM
 
-[![Run on Repl.it](https://repl.it/badge/github/kyusulamita/0220-BCPWK-RM-1)](https://repl.it/github/0220-BCPWK-RM-1)
+[![Run on Repl.it](https://repl.it/badge/github/kyusulamita/0220-BCPWK-RM)](https://repl.it/@kyusulamita/0220-BCPWK-RM-1)
 
 ## Table of Contents
 1. [Introduction And Tidy Code](#01-introduction-and-tidy-code)
