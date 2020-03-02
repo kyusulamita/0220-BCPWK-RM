@@ -138,3 +138,19 @@
 5. [More methods](05-arrays-i/05-more-methods.js)
 6. [Slice + Reverse](05-arrays-i/06-slice.js)
 
+## **06 Arrays II**
+
+**[Live Lecture]()**
+
+[Workshop](https://learn.fullstackacademy.com/workshop/5ac579437ec3340004bdde15/content/5ac579437ec3340004bdde1a/text)
+
+[Solutions](https://learn.fullstackacademy.com/workshop/5ac579437ec3340004bdde15/content/5ac579437ec3340004bdde1b/text)
+
+### Notes
+
+[Full Notes](06-array-ii)
+
+1. [Splice](06-array-ii/01-splice.js)
+2. [Join + Split](06-array-ii/02-join-split.js)
+3. [Concat](06-array-ii/03-concat.js)
+4. [Nested Arrays](06-array-ii/04-nested-arrays.js)
