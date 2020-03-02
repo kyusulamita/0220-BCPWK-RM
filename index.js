@@ -1,2 +1,3 @@
 // Decide which folder is going to run
-require('./05-arrays-i')
+// require('./05-arrays-i')
+require('./06-arrays-ii')
