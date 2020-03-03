@@ -13,7 +13,7 @@ Only run one file at time.
 
 
 // require('./01-splice')
-require('./02-join-split')
+// require('./02-join-split')
 // require('./03-concat')
-// require('./04-nested-arrays')
+require('./04-nested-arrays')
 

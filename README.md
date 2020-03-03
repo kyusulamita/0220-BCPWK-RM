@@ -140,7 +140,7 @@
 
 ## **06 Arrays II**
 
-**[Live Lecture]()**
+**[Live Lecture](https://youtu.be/ndScjbWhCFo)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac579437ec3340004bdde15/content/5ac579437ec3340004bdde1a/text)
 
