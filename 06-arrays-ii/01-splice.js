@@ -30,9 +30,9 @@ let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
 
 
 // let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
-// let acrossTheUniverse = names.splice(1, 0, "Theodore"); // []
-// console.log(names);
-// console.log(acrossTheUniverse);
+let acrossTheUniverse = names.splice(1, 0, "Theodore"); // []
+console.log(names);
+console.log(acrossTheUniverse);
 
 
 // let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
