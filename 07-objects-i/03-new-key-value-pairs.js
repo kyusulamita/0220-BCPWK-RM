@@ -10,12 +10,13 @@ use bracket notation or dot notation to add a key/value pair
 //   isHappy: true,
 // };
 
+
 // pusheen['bigSister'] = 'Stormy';
 // console.log(pusheen);
 
 // const keyToAdd = "sibling"
 // pusheen[keyToAdd] = "Pip";
-
+// console.log(pusheen);
 
 // pusheen.brother = 'Pip';
 
@@ -36,8 +37,8 @@ let pusheen = {
 
 // pusheen.age++; // pusheen.age = pusheen.age + 1;
 // pusheen.age = 45;
-pusheen["age"]++; //pusheen["age"] = pusheen["age"] + 1;
-// pusheen["age"] = 45;
+// pusheen["age"]++; //pusheen["age"] = pusheen["age"] + 1;
+pusheen["age"] = 45;
 
 pusheen.colour = "Brown";
 console.log(pusheen);

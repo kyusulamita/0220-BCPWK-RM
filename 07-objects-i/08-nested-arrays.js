@@ -13,6 +13,7 @@ let pusheen = {
 
 // console.log(pusheen.colors);
 // console.log(pusheen.colors[0]);
+// pusheen.colors.push('silver');
 // const pusheenColors = pusheen.colors;
 // console.log(pusheenColors[1]);
 // pusheenColors.push('silver');
@@ -40,8 +41,8 @@ let pusheen = {
 // console.log(num);
 // console.log(pusheen.age);
 
-const pusheenColors = pusheen.colors.slice();
-pusheenColors.push('black');
+// const pusheenColors = pusheen.colors.slice();
+// pusheenColors.push('black');
 
-console.log(pusheenColors);
-console.log(pusheen);
+// console.log(pusheenColors);
+// console.log(pusheen);

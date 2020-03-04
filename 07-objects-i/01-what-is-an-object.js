@@ -17,8 +17,8 @@ let myObject = {
   'key2': 'value2'
 };
 
-console.log(myArray[0]);
-console.log(myObject['key1']);
+// console.log(myArray[0]);
+// console.log(myObject['key1']);
 
 /* consider representing Pusheen the Cat as an array */
 
@@ -44,6 +44,8 @@ let pusheen = {
 
   If only zoo inventory had used objects! Can you imagine what it would have looked like?
 
+  // ["Simba", ["Lion", 7]]
+  
   const animal = {
     name: "Simba",
     species: "Lion King",
@@ -58,9 +60,11 @@ typeof
 
 */
 
-console.log(typeof {});
+console.log(typeof {}); // object
+console.log(typeof []); // object
 
-// console.log(typeof []); // object
+console.log(Array.isArray({})) // false
+console.log(Array.isArray([])) // true
 
 // const unknown = [];
 

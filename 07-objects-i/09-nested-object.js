@@ -13,6 +13,7 @@ let pusheen = {
 
 console.log(pusheen.siblings.sister);
 console.log(pusheen.siblings.brother);
+// console.log(pusheen)
 console.log(JSON.stringify(pusheen, null, 2))
 
 // const siblingToLookFor = "brother";
@@ -25,7 +26,7 @@ pusheen.siblings.sister = {
 };
 // console.log(JSON.stringify(pusheen, null, 2))
 // console.log(pusheen)
-console.log(pusheen.siblings.sister.name)
+// console.log(pusheen.siblings.sister.name);
 
 // pusheen.siblings.brother = {
 //   name: 'Pip',
@@ -36,10 +37,12 @@ console.log(pusheen.siblings.sister.name)
 // take this object and format
 // console.log(JSON.stringify(pusheen, null, 4));
 
+const pusheenSister = pusheen.siblings.sister;
+console.log(JSON.stringify(pusheenSister, null, 2))
 // console.log(pusheen.siblings.sister.name);
 // console.log(pusheen.siblings.brother.name);
-// const siblingToLookFor = 'sister';
-// console.log(pusheen.siblings[siblingToLookFor].name);
+const siblingToLookFor = 'sister';
+console.log(pusheen.siblings[siblingToLookFor].name);
 // console.log(pusheen.siblings[siblingToLookFor]["name"]);
 
 

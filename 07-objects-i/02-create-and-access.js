@@ -6,17 +6,16 @@
 /* 
 
 an object's keys are always strings; you can omit the quotation marks 
-
+ []
 
 */
 
-let pusheen = {
-  name: 'Pusheen',
-  age: 7,
-  colour: 'gray and tabby',
-  isHappy: true,
-};
-
+// let pusheen = {
+//   name: 'Pusheen',
+//   age: 7,
+//   colour: 'gray and tabby',
+//   isHappy: true,
+// };
 
 /*
 
@@ -24,12 +23,12 @@ is the same as:
 
 */
 
-let pusheenTheSecond = {
-  "name": 'Pusheen II',
-  "age": 7,
-  "colour": 'gray and tabby',
-  "isHappy": true,
-};
+// let pusheenTheSecond = {
+//   "name": 'Pusheen II',
+//   "age": 7,
+//   "colour": 'gray and tabby',
+//   "isHappy": true,
+// };
 
 
 /*
@@ -50,13 +49,13 @@ let pusheenTheSecond = {
 
   
 
-// let pusheen = {
-//   name: 'Pusheen',
-//   age: 7,
-//   colour: 'gray and tabby',
-//   isHappy: true,
-//   favouriteFood: 'cookies',
-// };
+let pusheen = {
+  name: 'Pusheen',
+  age: 7,
+  colour: 'gray and tabby',
+  isHappy: true,
+  favouriteFood: 'cookies',
+};
 /*
 if you have a long key like "favourite food", then you need quotes
 */
@@ -69,14 +68,13 @@ pass a string into the brackets that corresponds with a key in the object
 
 */
 
-
+// console.log(pusheen);
 // console.log(pusheen['name']);
 // console.log(pusheen['age']);
 // console.log(pusheen['colour']);
-
 // console.log(pusheen['notAKeyInTheObject']);
 
-// let keyToCheck = 'isHappy';
+// let keyToCheck = 'name';
 // let word = 'favourite'
 // console.log(pusheen[keyToCheck]);
 // console.log(pusheen['is' + 'Happy']); // isHappy
@@ -98,4 +96,4 @@ console.log(pusheen.colour);
 
 console.log(pusheen.keyToCheck); //undefined
 // ! will not work
-// console.log(pusheen.name); // no quotes needed with dot notation
+console.log(pusheen.name); // no quotes needed with dot notation
