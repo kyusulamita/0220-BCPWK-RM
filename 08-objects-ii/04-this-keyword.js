@@ -161,36 +161,3 @@ let pusheen = {
 // pusheen.levelUp(20)
 // console.log(pusheen)
 // console.log(returnedObject === pusheen);
-
-const pip = {
-  name: 'Pip',
-  age: 5,
-  color: 'Orange',
-  species: 'Cat'
-}
-
-const mrBear = {
-  name: 'Mr Bear',
-  color: 'brown',
-  age: 2,
-  species: 'Bear',
-  salute: function(name){
-    console.log(`Hello ${name}, I am ${this.name} the ${this.color} ${this.species}.`);
-  },
-}
-
-mrBear.salute('Karolina');
-pip.sayHi = mrBear.salute;
-// pip.sayHi = function(name){
-//  this => pip
-//   console.log(`Hello ${name}, I am ${this.name} the ${this.color} ${this.species}.`);
-// };
-// pip.name = "Pip the little guy"
-pip.sayHi("Sara")
-
-
-// pusheen.greet("Alvin")
-pip.greet = pusheen.greet;
-pip.greet('Alvin')
-
-
