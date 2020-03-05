@@ -12,9 +12,9 @@ instead, the variable stores a reference in memory; the reference points to the 
 https://goo.gl/ZH7PGF
 */
 
-// let first = [10, 20]; // first stores a reference to [10, 20]
-// first.push(30); // first still stores the same reference
-// console.log(first);
+let first = [10, 20]; // first stores a reference to [10, 20]
+first.push(30); // first still stores the same reference
+console.log(first);
 
 
 /* 
@@ -37,7 +37,8 @@ https://goo.gl/jXDnnM
 */
 
 // let first = [10, 20];
-// let second = first; /* second now stores a copy of the REFERENCE that was originally stored in first */
+// let second = first; /* second now stores a copy of the REFERENCE that was originally stored in first 
+
 
 // /* 
 // first and second share the same reference to the same array! 
