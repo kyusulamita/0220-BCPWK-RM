@@ -1,13 +1,13 @@
-let calc = {
-  num1: 20,
-  num2: 30,
-  sum: function() {
-    return this.num1 + this.num2;
-  },
-  difference: function() {
-    return this.num1 - this.num2;
-  }
-};
+// let calc = {
+//   num1: 20,
+//   num2: 30,
+//   sum: function() {
+//     return this.num1 + this.num2;
+//   },
+//   difference: function() {
+//     return this.num1 - this.num2;
+//   }
+// };
 
 
 // console.log(calc.sum()); // 50
@@ -31,6 +31,10 @@ const bank = {
   getBankInfo: function () {
     console.log(`Your savings has ${this.savings}`);
     console.log(`Your checking has ${this.checking}`);
+  },
+  // 'savings', 'checking'
+  depositXIntoN: function(amount, accountType) {
+    this[accountType] += amount;
   }
 }
 
@@ -38,6 +42,9 @@ const bank = {
 bank.deposit(40);
 bank.getBankInfo();
 bank.transfer(10);
+bank.getBankInfo();
+
+bank.depositXIntoN(45, 'checking');
 bank.getBankInfo();
 
 

@@ -32,7 +32,6 @@
 //   isHappy: true,
 //   greet: function(name){
 //     console.log(`Hello ${name}, I am ${pusheenTheThird.name} the ${pusheenTheThird.color} cat. I am ${pusheenTheThird.age}.`);
-//     // console.log("Hello " + name + " , I am Pusheen the gray and tabby cat. I am 7.");
 
 //   },
 //   birthYear: function(currentYear){
@@ -40,21 +39,20 @@
 //   }
 // };
 
-// pusheen.greet("Liz");
-// pusheen.greet("Paige");
+// pusheenTheThird.greet("Liz");
 
-// pusheen.age++;
-// pusheen.age++;
-// pusheen.name = "Pusheen the Great"
-
-// console.log(JSON.stringify(pusheen, null, 2));
-// console.log(pusheen);
-// pusheen.greet("Liz");
-// pusheen.greet("Paige");
+// pusheenTheThird.age++;
+// pusheenTheThird.age++;
+// pusheenTheThird.name = "Pusheen the Great";
+// console.log(JSON.stringify(pusheenTheThird, null, 2));
+// console.log(JSON.stringify(pusheenTheThird, null, 2));
+// console.log(pusheenTheThird);
+// pusheenTheThird.greet("Liz");
+// pusheenTheThird.greet("Paige");
 
 // const name = 'Sulamita'
 
-// let pusheen = {
+// let pusheenTheThird = {
 //   name: 'Pusheen',
 //   age: 7,
 //   color: 'gray and tabby',
@@ -77,8 +75,17 @@
 
 // };
 
-// const maybePusheen = pusheen.getThis();
-// console.log(maybePusheen === pusheen);
+// pusheenTheThird.greet("Liz");
+// pusheenTheThird.arrowMethod("Liz");
+
+// pusheenTheThird.age++;
+// pusheenTheThird.age++;
+// pusheenTheThird.name = "Pusheen the Great";
+// pusheenTheThird.greet("Liz");
+
+
+// const maybePusheen = pusheenTheThird.getThis();
+// console.log(maybePusheen === pusheenTheThird);
 // console.log([] === []);
 // const a = [];
 // console.log(a === a);
@@ -142,22 +149,24 @@ let pusheen = {
 
 // console.log(pusheen);
 
-// pusheen.levelUp = function(levels = 1){
-//   // 10 
-//   this.level += levels;
-//   if (this.level > 30){
-//     this.name = "The best of all time"
-//   }
+// object.key = value;
 
-//   if (this.level < 20){
-//     this.name = "Pusheen"
-//   }
-//   return this.level;
-// };
+pusheen.levelUp = function(levels = 1){
+  // 10 
+  this.level += levels;
+  if (this.level > 30){
+    this.name = "The best of all time"
+  }
 
-// console.log(pusheen)
-// pusheen.levelUp(10)
-// console.log(pusheen)
-// pusheen.levelUp(20)
-// console.log(pusheen)
+  if (this.level < 20){
+    this.name = "Pusheen"
+  }
+  return this.level;
+};
+
+console.log(pusheen)
+pusheen.levelUp(10)
+console.log(pusheen)
+pusheen.levelUp(20)
+console.log(pusheen)
 // console.log(returnedObject === pusheen);

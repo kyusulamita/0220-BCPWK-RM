@@ -31,9 +31,10 @@ let pusheen = {
   },
   sayHi: function() {
     console.log('Hello I am pusheen.')
-  }
-};
+  },
 
+};
+pusheen.myMethod();
 // console.log(pusheen.myMethod);
-console.log(pusheen.name);
+// console.log(pusheen.name);
 pusheen.sayHi();
