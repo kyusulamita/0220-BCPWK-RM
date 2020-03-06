@@ -9,6 +9,7 @@ https://goo.gl/Pyhj18
 let array1 = [1, 2, 3]; 
 let array2 = [1, 2, 3];
 
+// false
 console.log(array1 === array2);
 
 /*
@@ -45,7 +46,7 @@ let pusheen = {
 function countMethods(obj){
   let count = 0;
   for(const key in obj){
-    if (typeof obj[key] ==="function"){
+    if (typeof obj[key] === "function"){
       count++;
     }
   }

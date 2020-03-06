@@ -38,3 +38,17 @@ console.log("original", pusheen);
 incrementAge(pusheen);
 console.log("original", pusheen)
 incrementAge(pusheen);
+
+function copyAndRename(obj, newName){
+  // obj => pusheen
+  const newObj = {};
+  for (let key in obj) {
+    newObj[key] = obj[key];  
+  }
+  newObj.name = newName;
+  return newObj;
+}
+
+const theodore = copyAndRename(pusheen, "Theodore");
+const simon = copyAndRename(pusheen, "Simon");
+const tom = copyAndRename(pusheen, "Tom");
