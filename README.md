@@ -195,7 +195,7 @@
 
 ## **09 Pass By Value and Pass By Reference**
 
-**[Live Lecture](https://youtu.be/3uI2tTn623A)**
+**[Live Lecture](https://youtu.be/AuK7K421XMo)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca3ccb37312200043b62bb/content/5aca3ccb37312200043b62bf/text)
 
