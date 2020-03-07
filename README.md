@@ -193,6 +193,26 @@
 4. [This Keyword](08-objects-ii/04-this-keyword.js)
 5. [Calculator Example](08-objects-ii/05-calc-example.js)
 
+## **09 Pass By Value and Pass By Reference**
+
+**[Live Lecture](https://youtu.be/AuK7K421XMo)**
+
+[Workshop](https://learn.fullstackacademy.com/workshop/5aca3ccb37312200043b62bb/content/5aca3ccb37312200043b62bf/text)
+
+[Solutions](https://learn.fullstackacademy.com/workshop/5aca3ccb37312200043b62bb/content/5aca3ccb37312200043b62c1/text)
+
+### Notes 
+[Full Notes](09-pbv-pbr)
+
+1. [Primitive Behavior](09-pbv-pbr/01-primitive-behavior.js)
+2. [Complex Behavior](09-pbv-pbr/02-complex-behavior.js)
+3. [Primitive](09-pbv-pbr/03-primitive.js)
+4. [Complex](09-pbv-pbr/04-complex.js)
+5. [Passing Primitive Values](09-pbv-pbr/05-passing-primitive.js)
+6. [Passing Complex Values](09-pbv-pbr/06-passing-complex.js)
+7. [Equality Operator](09-pbv-pbr/07-equality-operator.js)
+8. [Arrays Slice](09-pbv-pbr/08-arrays-slice.js)
+
 
 ## **10 High Order Functions I**
 
@@ -236,4 +256,3 @@
 7. [High Order Function + Params](11-high-order-functions-ii/07-high-order-function-with-params.js)
 8. [Both have params](11-high-order-functions-ii/08-both-have-params.js)
 9. [Both have params II](11-high-order-functions-ii/09-both-have-params-ii.js)
-
