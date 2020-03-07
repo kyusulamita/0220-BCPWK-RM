@@ -14,16 +14,18 @@
 // let group = ["Jane", "Jill", "Pip", "Mike"];
 
 
-// function sayByeWithName(name) {
-//   console.log("Bye, " + name + "!");
-// };
-
-// callAllWith(group, sayHelloWithName);
-// callAllWith(group, sayByeWithName);
+function sayByeWithName(name) {
+  console.log("Bye, " + name + "!");
+};
 
 // function sayHelloWithName(name) {
 //   console.log("Hello, " + name + "!");
 // };
+
+// callAllWith(group, sayHelloWithName); // iterate over group and call sayByeWithName
+callAllWith(group, sayByeWithName); // iterate over group and call sayByeWithName
+
+
 
 // const pets = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
 // function petThePet(petName){
@@ -52,13 +54,11 @@
 // }
 // const group = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
 
-// let group = ["Jane", "Jill", "Pip", "Mike"];
-
-// callAllWith(group, function (name) {
+// callAllWith(group, function(name) {
 //   console.log("Bye, " + name + "!");
 // });
 
-// callAllWith(pets, function(name){
+// callAllWith(group, function(name){
 //   console.log(`${name} loves to jump.`);
 // });
 
@@ -72,25 +72,25 @@
 // high order
 // callback 
 
-function callAllWith(arr, callbackFunc) {
-  for (let i = 0; i < arr.length; i++) {
-    const elem = arr[i];
-    callbackFunc(elem);
-  }
-}
+// function callAllWith(arr, callbackFunc) {
+//   for (let i = 0; i < arr.length; i++) {
+//     const elem = arr[i];
+//     callbackFunc(elem);
+//   }
+// }
 
 
-const pets = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
+// const pets = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
 
 // function petLovesToJump(petName){
 //   console.log(`${petName} loves to jump.`)
 // }
 
-function lovesToEat(name){
-  console.log(`${name} loves to eat.`)
-}
+// function lovesToEat(name){
+//   console.log(`${name} loves to eat.`)
+// }
 
-console.log(lovesToEat);
+// console.log(lovesToEat);
 // callAllWith(pets, petLovesToJump);  //
 // callAllWith(pets, lovesToEat); //
 
@@ -98,10 +98,10 @@ console.log(lovesToEat);
 const plants = ['Planty', 'Mr. Plant', 'Theodore'];
 // callAllWith(plants, lovesToEat);
 
-// function needsFertilizer(name) {
-//   console.log(`${name} need fertilizer.`)
-// }
-// callsAllWith(plants, needsFertilizer);
-callAllWith(plants, function (name) {
+function needsFertilizer(name) {
   console.log(`${name} need fertilizer.`)
-})
+}
+// callsAllWith(plants, needsFertilizer);
+// callAllWith(plants, function (name) {
+//   console.log(`${name} need fertilizer.`)
+// })

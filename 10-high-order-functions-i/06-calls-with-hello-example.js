@@ -5,19 +5,19 @@ https://goo.gl/t6AKRa
 */
 
 function addWorld(string) {
+  // return "hello" + " world"
   return string + ' world';
 }
 
 function callsWithHello(func) {
+  // func => addWorld
+  // return addWorld("hello");
   return func('hello');
 }
 
 let result = callsWithHello(addWorld);
 console.log(result);
 
-function addWorld(string) {
-  return string + ' world';
-}
 
 
 // // high order function
