@@ -4,5 +4,6 @@
 // require('./07-objects-i')
 // require('./08-objects-ii')
 // require('./09-pbv-pbr')
-require('./10-high-order-functions-i')
+// require('./10-high-order-functions-i')
+require('./11-high-order-functions-ii')
 

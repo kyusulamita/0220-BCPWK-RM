@@ -5,5 +5,5 @@
 // require('./05-scope-refresher.js')
 // require('./06-what-is-closure.js')
 // require('./07-high-order-function-with-params.js')
-// require('./08-both-have-params.js')
+require('./08-both-have-params.js')
 // require('./09-both-have-params-ii.js')

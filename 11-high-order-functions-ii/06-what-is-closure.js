@@ -9,20 +9,36 @@
 
 */
 
-function getMonster() {
-  console.log('getMonster is running');
 
-  let species = 'dragon';
-  console.log('getMonster is finishing');
+// function getGreeter() {
+//   console.log('getGreeter is running');
 
-  return function() {
-    console.log(`ROAR, I am a ${species}`);
-  };
+//   let name = 'Marie'; 
+//   console.log('getGreeter is finishing');
 
-}
+//   return function() {
+//     console.log('Hi', name);
+//   };
+// }
 
-let dragon = getMonster();
+// let greeter = getGreeter();
+// greeter();
 
-dragon();
-dragon();
-dragon();
+
+// function getMonster() {
+//   console.log('getMonster is running');
+
+//   let species = 'dragon';
+//   console.log('getMonster is finishing');
+
+//   return function() {
+//     console.log(`ROAR, I am a ${species}`);
+//   };
+
+// }
+
+// let dragon = getMonster();
+
+// dragon();
+// dragon();
+// dragon();
