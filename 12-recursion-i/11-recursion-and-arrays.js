@@ -31,35 +31,33 @@ very first element + the sum of the rest of the array
 recSumArr([3]) => 3
 2 + 3 = 5
 
-// [1, 2, 3] =>
-// 1 + recSumArr([2, 3])
-// 1 +( 2 + recSumArr([3]))
-// 1 + (2 + (3))
-// 6
+[1, 2, 3] =>
+1 + recSumArr([2, 3])
+1 +( 2 + recSumArr([3]))
+1 + (2 + (3))
+6
 
 https://goo.gl/of193d
 */
 // [2, 3]
-// function recSumArr(arr){
-//   if (arr.length === 0) {
-//     return 0;
-//   }
-//   if (arr.length === 1) {
-//     return arr[0];
-//   }
-//   // slice method
-//   const firstElem = arr[0]; // 2
-//   const restOfArr = arr.slice(1); // [3]
+function recSumArr(arr){
+  if (arr.length === 0) {
+    return 0;
+  }
+  if (arr.length === 1) {
+    return arr[0];
+  }
+  const firstElem = arr[0]; // 2
+  const restOfArr = arr.slice(1); // [3]
+  // recSumArr([3]) => 3
+  // return 2 + 3;
+  return firstElem + recSumArr(restOfArr);
+}
 
-//   const sumOfRestOfArr = recSumArr(restOfArr); // recSumArr([3])  => 3
-
-//   return firstElem + sumOfRestOfArr; // 2 + 3
-// }
-
-// console.log(recSumArr([]));// 0
-// console.log(recSumArr([4])); // 4
-// console.log(recSumArr([2, 3])); //5
-// console.log(recSumArr([1, 2, 3, 4, 5])); //15
+console.log(recSumArr([]));// 0
+console.log(recSumArr([4])); // 4
+console.log(recSumArr([2, 3])); //5
+console.log(recSumArr([1, 2, 3, 4, 5])); //15
 
 /*
 https://goo.gl/rbnCUL
