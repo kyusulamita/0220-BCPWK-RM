@@ -1,5 +1,5 @@
 
-// let returnedValue = mySplice([10, 20, 30, 40, 50, 60], 2, 3, 'apples');
+let returnedValue = mySplice([10, 20, 30, 40, 50, 60], 2, 3, 'apples');
 //  expect(returnedValue).toEqual([30, 40, 50]);
 function mySplice(arr, startIdx = 0, elemToRemove, elemToAdd) {
 

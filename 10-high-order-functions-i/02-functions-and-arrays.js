@@ -13,10 +13,12 @@ function happyFunction() {
 amazingArray.push(happyFunction);
 amazingArray.push(happyFunction);
 amazingArray.push(happyFunction);
-// console.log(amazingArray);
-
-const elem = amazingArray[0];
-console.log(elem);
-elem();
+console.log(amazingArray);
+// happyFunction()
+// amazingArray[0]();
+// const elem = amazingArray[0];
+// console.log(elem);
+// console.log(typeof elem);
+// elem();
 // console.log(amazingArray[0])
-amazingArray[0]();
+// amazingArray[0]();

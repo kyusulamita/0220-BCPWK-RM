@@ -6,5 +6,5 @@
 // require('./06-calls-with-hello-example.js')       
 // require('./07-calls-all-with-example.js')
 // require('./08-calc-example.js')
-// require('./09-forEach-map-array-method.js')    
+require('./09-forEach-map-array-method.js')    
 // require('./10-mySplice-review.js')

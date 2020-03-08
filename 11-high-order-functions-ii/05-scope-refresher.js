@@ -11,7 +11,7 @@
 function greeter() {
   let name = 'Marie'; 
 
-  function saysHi(){
+  function saysHi() {
     console.log('Hi', name);  
   }
 

@@ -21,13 +21,20 @@
     each element is the result of the callBackFunc
 */
 
-// let bridges = ['Brooklyn', 'Golden Gate', 'London'];
+let bridges = ['Brooklyn', 'Golden Gate', 'London'];
 
-// function logUpperCase(elem) {
+// function logUpperCase(elem, jack) {
+//   console.log("at index", jack)
 //   console.log(elem.toUpperCase());
 // }
 
-// bridges.forEach(logUpperCase);
+// for (let i = 0; i < bridges.length; i++) {
+//   const elem = bridges[i];
+//   logUpperCase(elem, i, bridges);
+// }
+
+// const returns = bridges.forEach(logUpperCase);
+// console.log(returns)
 // const pets = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
 
 // function lovesToEat(name, idx){
@@ -46,10 +53,10 @@
 
 
 
-// function logUpperCase(elem) {
-//   console.log(elem.toUpperCase());
-//   return elem.toUpperCase();
-// }
+function logUpperCase(elem) {
+  console.log(elem.toUpperCase());
+  return elem.toUpperCase();
+}
 
 // const forEachReturn = bridges.forEach(logUpperCase);
 // console.log(forEachReturn);
@@ -89,16 +96,16 @@
 
 const nums = [1, 2, 3, 4, 5];
 
-function squareNum(num){
-  return num *  num;
-}
+// function squareNum(num){
+//   return num *  num;
+// }
 
 // const numsSquared = nums.map(squareNum);
 // console.log(numsSquared);
 
-const numsSquared = nums.map(function(num) {
-  return num * num;
+const numsSquared = nums.map(function (num){
+  return num *  num;
 })
 
-console.log(numsSquared);
-console.log(nums);
+// console.log(numsSquared);
+// console.log(nums);

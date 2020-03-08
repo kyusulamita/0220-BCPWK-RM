@@ -6,7 +6,7 @@
 // logsAType('happy string');
 // logsAType(true);
 // logsAType([]);
-// logsAType(null);
+// logsAType(null); // object
 // logsAType(4);
 /* 
 
@@ -16,10 +16,12 @@ functions that take a function or return a function are called"higher-order func
 
 */
 
+// high order function -> takes in a function OR returns a function
 // function logsAType(value) {
 //   console.log(typeof value);
 // }
 
+// // call back function -> gets passed in
 // function happyFunction() {
 //   console.log('I am happy!');
 // }
@@ -35,9 +37,11 @@ https://goo.gl/r7dHnj
 
 // high order function <= taking in a function
 function callsAFunction(anotherFunction) {
-  // anotherFunction(); // invoking this time
+  // anotherFunction => happyFunction
   console.log("running");
-  anotherFunction();
+  // happyFunction;
+  anotherFunction;
+  console.log("done");
 }
 
 function happyFunction() {

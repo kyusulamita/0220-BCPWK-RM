@@ -2,6 +2,7 @@
 https://goo.gl/F6D3rA
 
 */
+
 function saysHi(name) {
   console.log(`Hi ${name}!`);
   //return undefined;
@@ -12,6 +13,8 @@ function saysBye(name) {
 }
 
 function callsWithName(name, sayHiOrBye) {
+  // sayHiOrBye => saysBye
+  // name => Sadie
   sayHiOrBye(name);
 }
 
