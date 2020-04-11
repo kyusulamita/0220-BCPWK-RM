@@ -6,7 +6,7 @@ const my_favourite_place = 'Fullstack';
 const myFavouritePlace = 'Fullstack';
 // why? it’s what is most common
 
-// capital letter variables are also not preffered
+// capital letter variables are also not preferred
 // you’ll use them for classes and other things
 // if you’re curious about an example refer to 04-pups.js
 
